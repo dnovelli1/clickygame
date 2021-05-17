@@ -1,15 +1,15 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar(props) {
     return (
         <nav className="navbar">
             <a href="/">Welcome</a>
             <h2>Click an Image to begin!</h2>
             <div>
-                Score:
+                Score: {props.total}
             </div>
             <div>
-                Top Score:
+                Top Score: {props.topscore}
             </div>
         </nav>
     )

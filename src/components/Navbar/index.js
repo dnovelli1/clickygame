@@ -4,7 +4,7 @@ function Navbar(props) {
     return (
         <nav className="navbar">
             <a href="/">Welcome</a>
-            <h2>Click an Image to begin!</h2>
+            <h2>{props.status}</h2>
             <div>
                 Score: {props.total}
             </div>

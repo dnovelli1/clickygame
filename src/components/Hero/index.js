@@ -1,10 +1,9 @@
 import React from 'react';
+import huge from '../images/hero.jpg';
 // put hero image here from bootstrap
 function Hero() {
     return(
-        <div>
-        Hero Image Goes here
-        </div>
+        <img src={huge} className='img-fluid' alt='hero'></img>
     )
 }
 

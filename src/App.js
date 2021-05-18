@@ -120,7 +120,7 @@ class App extends Component {
           topscore={this.state.topScore}
           status={this.state.status}
         />
-        <Hero />
+        {/* <Hero /> */}
         <main className="container">
           {this.state.dogs.map(dog => (
             <DogCard

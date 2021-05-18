@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -114,14 +114,14 @@ class App extends Component {
   render() {
     return (
 
-      <div>
+      <div className="wrapper">
         <Navbar
           total={this.state.score}
           topscore={this.state.topScore}
           status={this.state.status}
         />
         <Hero />
-        <main>
+        <main className="container">
           {this.state.dogs.map(dog => (
             <DogCard
               checkImage={this.checkImage}

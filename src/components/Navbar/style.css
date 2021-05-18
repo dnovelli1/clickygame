@@ -1,0 +1,10 @@
+.navbar {
+    color: violet;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.navbar > .score {
+    margin-left: 10px;
+
+}

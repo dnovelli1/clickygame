@@ -1,14 +1,12 @@
 import React from 'react';
-
+import './style.css';
 function Navbar(props) {
     return (
         <nav className="navbar">
-            <a href="/">Welcome</a>
+            <h3 style={{fontWeight: 'bolder'}}>Clicky Doge</h3>
             <h2>{props.status}</h2>
-            <div>
+            <div className="score">
                 Score: {props.total}
-            </div>
-            <div>
                 Top Score: {props.topscore}
             </div>
         </nav>

@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+// import Hero from './components/Hero';
 import dogs from './Dogs.json';
 import DogCard from './components/DogCard';
 
@@ -15,22 +15,6 @@ class App extends Component {
     max: 12,
     status: 'Click an image to begin!'
   }
-
-  // addClicked = (param) => {
-  //   console.log(param);
-  //   this.setState({
-  //     allClicked: [
-  //       ...this.state.allClicked,
-  //       param
-  //     ],
-  //     clicked: param
-  //   })
-  //   console.log(this.state.allClicked)
-  //   this.checkImage(this.state.clicked);
-  // }
-  // getScore = () => {
-
-  // }
 
   checkImage = clicked => {
     // event.preventDefault();
@@ -81,23 +65,6 @@ class App extends Component {
         })
     }
     console.log(this.state.score);
-    // for(var i = 0; i < this.state.allClicked.length; i++) {
-    //   console.log(this.state.allClicked[i]);
-    //   if(this.state.allClicked[i] === clicked) {
-    //     console.log('Found a match!');
-    //     this.getScore();
-    //   } else {
-    //     this.setState({
-    //       score: this.state.score + 1,
-    //       allClicked: [
-    //         ...this.state.allClicked,
-    //         clicked
-    //       ]
-    //     });
-    //     console.log(this.state.allClicked);
-    //     console.log(this.state.score);
-    //   }
-    // }
     this.shuffleArr();
   }
 

@@ -6,11 +6,12 @@
 
 ## Description
 
+In this assignment I was prompted with the task of creating a clicky game with React. I needed to create a React application that would render images onto the page. When a user clicks on of the imagegs the game starts. The user would continue to click images, being sure to not click the same image twice or you lose! 
 
 
 Please have a look at the full application deployed at the link below:
 
-[Full-Site]()
+[Full-Site](https://dnovelli1.github.io/clickygame/)
 
 
 
@@ -36,9 +37,13 @@ Please have a look at the full application deployed at the link below:
 
 - GitBash - used for written commands and communicating with the repository stored on GitHub.
 
+- HTML - used to create and edit electronic documents stored on the web.
+
+- CSS - used to edit style and appearance of the website.
+
 - Javascript - a programming language that makes your webpage user interactive.
 
-- React.js
+- React.js - front-end Javascript library for building user interfaces or UI components.
 
 
 ## Contribute 

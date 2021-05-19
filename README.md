@@ -61,15 +61,17 @@ To run tests, please use the following command:
 
 ## Making
 
+Here is an example of the application in action!
+
+![demo](./images/websitepreview.gif)
+
+
 How was it made? Take a look here!
 
 
+This is an example of the render function inside of my App.js. This function will return the constructed HTML to the index.html page. I used components and passed props to each one in order to pas the current state to each component.
 
-![Code-Snippet]()
-
-
-
-![Code-Snippet]()
+![Code-Snippet](./images/render.PNG)
 
 
 ## Questions
